@@ -1,0 +1,5 @@
+docker run -idt -p 6379:6379 redis
+telnet localhost 6379
+redis-cli PING
+docker kill
+redis-cli PING

@@ -1,0 +1,2 @@
+docker run --name my-awesome-mysql -e MYSQL_ROOT_PASSWORD=mypass -d mysql
+docker exec -it my-awesome-mysql mysql -u root -p
